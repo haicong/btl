@@ -1,0 +1,378 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khóa học</title>
+    <style>
+        .main{
+	        width: 100%;
+	        height: 100px;
+         }
+
+        .main1{
+            width: 100%;
+            height: 50px;
+            background-color:rgb(6, 44, 116);
+            position: fixed;
+            top: 0px;
+
+        }
+        #than{
+            margin-top: 70px;
+        }
+
+        .main3{
+            margin:0px 35px 0px 20px ;
+            padding-top: 0.5px;
+        }
+        .main3-anh{
+            margin: 30px 0px 50px 0px;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        a{
+            text-decoration: none;	
+            color: black;
+            padding: 0px 20px;
+            line-height: 50px;
+            display: block;
+            font-weight: bold;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .tieude{
+            width: 931px;
+            height: 40px;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        li{
+            list-style: none;
+        }
+        .cap1-list li{
+            float: left;
+        }
+        .dangnhap{
+            margin-left: 700px;
+            position: relative;
+        }
+       
+        .cap2dangnhap-list{
+            width: 160px;
+            height: 150px;
+            background-color: #0626b3;
+            border-radius: 4px;
+            position: absolute;
+        }
+
+        .cap1-list> li:hover> a{
+            color: rgb(86, 121, 236);
+        }
+        .down{
+            position: relative;
+        }
+        .down .cap2-list{
+            position: absolute;
+        }
+        .cap2-list{
+            width: 160px;
+            height: 150px;
+            background-color: #0626b3;
+            display: none;
+            border-radius: 4px;
+        }
+        .cap2-list>ul>li>a{
+            display: block;
+            width: 120px;
+        }
+        .cap1-list .down:hover .cap2-list{
+            display: block;
+        }
+        .cap2-list>ul>li:hover>a{
+            background-color: rgb(134, 170, 236);
+	        border-radius: 4px;
+        }
+        .down1{
+            position: relative;
+        }
+
+
+        .letrai{
+            padding-left: 35px;
+        }
+        .main2{
+            width: 931px;
+            height: 600px;
+        }
+        .main2> img{
+            height: 315px;
+            margin: 0px 5px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        .main2{
+            margin: 20px 5px 5px 35px;
+        }
+        .main2>h3{
+            margin-top: 25px;
+            padding: 0px 290px;
+        }
+        .main2-cuoi{
+            margin-top: 20px;
+            background-color: #F1F1F1;
+        }
+        .main2{
+            float: left;
+        }
+        /* menu cấp 3 */
+        .down1{
+            position: relative;
+        }
+        .cap3-list{
+            background-color: #4548dd;
+            position: absolute;
+            left: 160px;
+            top: 20px;
+            width: 170px;
+            display: none;
+            border-radius: 4px;
+        }
+        .cap2-list .down1:hover .cap3-list{
+            display: block;
+        }
+        .cap3-list>ul>li:hover>a{
+            background-color: rgb(110, 182, 241);
+        }
+        .cap3-list>ul>li>a{
+            width: 130px;
+        }
+        /* cấp 2 chỗ thông tin cá nhân */
+        .logodangnhap{
+            padding-top: 10px;
+        }
+        .cap2dangnhap-list{
+            width: 190px;
+            height: 100px;
+            display: none;
+        }
+        .cap2dangnhap-list>ul>li:hover>a{
+            background-color: rgb(134, 170, 236);
+	        border-radius: 4px;
+        }
+        .cap2dangnhap-list>ul>li>a{
+            width: 150px;
+        }
+        .dangnhap:hover>.cap2dangnhap-list{
+            display: block;
+        }
+        /* hết menu */
+
+        
+        
+
+        /* nội dung bao trùm các khối các khóa học */
+        .noidung{
+            width: 90%;
+            height: 1000px;
+            background-color:gray;
+            margin: 90px 5% 0px 5%;
+        }
+        /* css phần giới thiệu 3 khóa học wep */
+        .khoahoc{
+            width: 100%;
+            background-color: #c6dff1;
+            
+        }
+        .khoahoc-word{
+            width: 300px;
+            height: 400px;
+            background-color: #31343d;
+            border-radius: 20px;
+            float: left;
+            margin: 20px 35px 0px 80px;
+            
+        }
+        .khoahoc-word> a{
+            color: #76654f;
+            font-size: 20px;
+        }
+        .khoahoc-excle{
+            width: 300px;
+            height: 400px;
+            float: left;
+            background-color: #31343d;
+            border-radius: 20px;
+            margin: 20px 35px 0px 35px;
+        }
+        .khoahoc-excle> a{
+            color: #76654f;
+            font-size: 20px;
+        }
+        .khoahoc-ppt{
+            width: 300px;
+            height: 400px;
+            float: left;
+            background-color: #31343d;
+            border-radius: 20px;
+            margin: 20px 0px 0px 35px;
+        }
+        .khoahoc-word>p{
+            margin: 0px 5px;
+            font-size: 15px;
+            color:#757575;
+        }
+        .khoahoc-excle>p{
+            margin: 0px 5px;
+            font-size: 15px;
+            color:#757575;
+        }
+        .khoahoc-ppt>p{
+            margin: 0px 5px;
+            font-size: 15px;
+            color:#757575;
+        }
+        .khoahoc-ppt> a{
+            color: #76654f;
+            font-size: 20px;
+        }
+        /* phần vào học */
+        .vaohoc{
+            width: 150px;
+            height: 40px;
+            background-color: #0642cd;
+            border-radius: 5px;
+            margin: 10px 76px 0px 76px;
+            text-align: center;
+            box-shadow: rgba(7,66,205,.15);
+        }
+        .vaohoc>a{
+            line-height: 40px;
+        }
+        .vaohoc:hover{
+            background-color: #042a83;;
+        }
+    </style>
+</head>
+<body>
+    <div class="main1">
+	    <ul class="cap1-list">
+              
+				<li class="down">
+					<a class="letrai" href="#">Trang chủ</a>
+
+				</li>
+                <li class="down">
+					<a href="#">Giới thiệu</a>
+				</li>
+				<li class="down">
+					<a href="../trang con cap 1/khoahoc.html">Khóa học</a>
+					<div class="cap2-list">
+						<ul>
+							<li class="down1">
+								<a href="../trang con cap 2/word.html">Word</a>
+								<div class="cap3-list">
+                                    <ul>
+                                        <li>
+                                            <a href="../trang con cap 2/word.html">Bài giảng</a>
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/quiz-word.html">Quiz</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/baitapthword.html">Bài tập thực hành</a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</li>
+							<li class="down1">
+								<a href="../trang con cap 2/excle.html">Excle</a>
+                                <div class="cap3-list">
+                                    <ul>
+                                        <li>
+                                            <a href="../trang con cap 2/excle.html">Bài giảng</a>
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/quiz-exlce.html">Quiz</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/baitapthexcle.html">Bài tập thực hành</a>
+                                        </li>
+                                    </ul>
+                                </div>
+								
+							</li>
+							<li class="down1" >
+								<a href="../trang con cap 2/ppt.html">Powerpoint</a>
+                                <div class="cap3-list">
+                                        <ul>
+                                            <li>
+                                                <a href="../trang con cap 2/ppt.html">Bài giảng</a>
+                                            </li>
+                                            <li>
+                                                <a href="../trang con cap 3/quiz-ppt.html">Quiz</a>
+                                                
+                                            </li>
+                                            <li>
+                                                <a href="../trang con cap 3/bt ppt.pdf">Bài tập thực hành</a>
+                                            </li>
+                                        </ul>
+							</li>
+						</ul>
+					</div>
+				</li>
+				
+                <li class="dangnhap">
+                    <a href="#">Nguyễn Duy Hải-CNTT</a>
+                    <div class="cap2dangnhap-list">
+                        <ul>
+                            <li><a href="../trang con cap 1/khoahoc.html">Các khóa học của tôi</a></li>
+                            <li><a href="../khung dang nhap/dangky.html">Thoát</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="logodangnhap">
+                   <a href="#"> <img  src="../img/hoso.png" height="30px"  alt=""></a>
+                </li>
+            
+				
+		    </ul>
+	</div>
+    <div class="noidung">
+       <img width="100%" src="../img/hoctap1.jpg" alt="">
+       <!-- tiêu đề -->
+       <h1 style="margin-top: 30px; margin-left: 38%;">Các khóa học của tôi</h1>
+       <!-- tất cả các khóa học -->
+       <div class="khoahoc">
+        <div class="khoahoc-word">
+            <img style="border-radius: 20px 20px 0px 0px ;" height="200px" src="../img/word.jpg" alt="">
+            <a href="../trang con cap 2/word.html">Khóa học Word cơ bản</a>
+            <p>Khóa học sẽ cung cấp đến cho người học những cú pháp cơ bản nhất về word (giới thiệu về word, định dạng font chữ, tạo bảng, thiết lập trang in,...)</p>
+            <br><div class="vaohoc"><a href="../trang con cap 2/word.html">Vào học</a></div>
+        </div>
+        <div class="khoahoc-excle">
+            <img style="border-radius: 20px 20px 0px 0px ;" height="200px" src="../img/excle.jpg" alt="">
+            <a href="../trang con cap 2/excle.html">Khóa học Excle cơ bản</a>
+            <p>Khóa học sẽ cung cấp đến cho người học những thao tác hàm cơ bản trong excle (giới thiệu về excle, quản lý ô dữ liệu, các hàm sum,...)</p>
+            <br><br><div class="vaohoc"><a href="../trang con cap 2/excle.html">Vào học</a></div>
+        </div>
+        <div  class="khoahoc-ppt">
+            <img style="border-radius: 20px 20px 0px 0px ;" width="300px" height="200px" src="../img/ppt.jpg" alt="">
+            <a href="../trang con cap 2/ppt.html">Khóa học Powerpoint cơ bản</a>
+            <p>Khóa học sẽ cung cấp đến cho người học những thao tác trình chiếu cơ bản trên Powerpoint (giao diện và biểu mẫu slide, biểu đồ, các đối tượng, video hình ảnh và âm thanh, hiệu ứng chuyển động,..)</p>
+            <div class="vaohoc"><a href="../trang con cap 2/ppt.html">Vào học</a></div>
+        </div>
+        
+    </div>
+    </div>
+</body>
+</html>

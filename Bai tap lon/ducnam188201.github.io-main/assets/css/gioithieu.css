@@ -1,0 +1,33 @@
+.gt{
+    display: flex;
+}
+
+.img-gt{
+    width:400px;
+    margin-bottom: 32px;
+}
+
+.text-gt{
+    padding-left: 16px;
+}
+
+.tile-text-gt{
+    font-weight: 500;
+}
+
+.ct-text-gt{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.text2{
+    margin: 16px 0 32px 0;
+}
+
+.ct-text2{
+    display: flex;
+}
+
+.hr-text2{
+    margin: 0 16px;
+}

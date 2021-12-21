@@ -1,0 +1,417 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powerpoint</title>
+    <style>
+        .main{
+	width: 100%;
+	height: 100px;
+    }
+
+    .main{
+	        width: 100%;
+	        height: 100px;
+         }
+
+        .main1{
+            width: 100%;
+            height: 50px;
+            background-color:rgb(6, 44, 116);
+            position: fixed;
+            top: 0px;
+
+        }
+        #than{
+            margin-top: 70px;
+        }
+
+        .main3{
+            margin:0px 35px 0px 20px ;
+            padding-top: 0.5px;
+        }
+        .main3-anh{
+            margin: 30px 0px 50px 0px;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        a{
+            text-decoration: none;	
+            color: black;
+            padding: 0px 20px;
+            line-height: 50px;
+            display: block;
+            font-weight: bold;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .tieude{
+            width: 931px;
+            height: 40px;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        li{
+            list-style: none;
+        }
+        .cap1-list li{
+            float: left;
+        }
+        .dangnhap{
+            margin-left: 700px;
+            /* position: relative; */
+        }
+       
+        .cap2dangnhap-list{
+            width: 160px;
+            height: 150px;
+            background-color: #0626b3;
+            border-radius: 4px;
+            position: absolute;
+        }
+
+        .cap1-list> li:hover> a{
+            color: rgb(86, 121, 236);
+        }
+        .down{
+            position: relative;
+        }
+        .down .cap2-list{
+            position: absolute;
+        }
+        .cap2-list{
+            width: 160px;
+            height: 150px;
+            background-color: #0626b3;
+            display: none;
+            border-radius: 4px;
+        }
+        .cap2-list>ul>li>a{
+            display: block;
+            width: 120px;
+        }
+        .cap1-list .down:hover .cap2-list{
+            display: block;
+        }
+        .cap2-list>ul>li:hover>a{
+            background-color: rgb(134, 170, 236);
+	        border-radius: 4px;
+        }
+        .down1{
+            position: relative;
+        }
+
+
+        .letrai{
+            padding-left: 35px;
+        }
+        .main2{
+            width: 931px;
+            height: 600px;
+        }
+        .main2> img{
+            height: 315px;
+            margin: 0px 5px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        .main2{
+            margin: 20px 5px 5px 35px;
+        }
+        .main2>h3{
+            margin-top: 25px;
+            padding: 0px 290px;
+        }
+        .main2-cuoi{
+            margin-top: 20px;
+            background-color: #F1F1F1;
+        }
+        .main2{
+            float: left;
+        }
+        /* menu cấp 3 */
+        .down1{
+            position: relative;
+        }
+        .cap3-list{
+            background-color: #4548dd;
+            position: absolute;
+            left: 160px;
+            top: 20px;
+            width: 170px;
+            display: none;
+            border-radius: 4px;
+        }
+        .cap2-list .down1:hover .cap3-list{
+            display: block;
+        }
+        .cap3-list>ul>li:hover>a{
+            background-color: rgb(110, 182, 241);
+        }
+        .cap3-list>ul>li>a{
+            width: 130px;
+        }
+        /* cấp 2 chỗ thông tin cá nhân */
+        .logodangnhap{
+            padding-top: 10px;
+        }
+        .cap2dangnhap-list{
+            width: 190px;
+            height: 100px;
+            display: none;
+        }
+        .cap2dangnhap-list>ul>li:hover>a{
+            background-color: rgb(134, 170, 236);
+	        border-radius: 4px;
+        }
+        .cap2dangnhap-list>ul>li>a{
+            width: 150px;
+        }
+        .dangnhap:hover>.cap2dangnhap-list{
+            display: block;
+        }
+        /* hết menu */
+        .trai{
+            width: 17%;
+            height: 560px;
+            /* background-color: rgb(68, 82, 124); */
+            margin-top: 50px;
+            border: 1px solid#333;
+            overflow-y: scroll;
+            font-size: 13px;
+            position: fixed;
+            left: 0px;
+            padding: 0px 0px 20px 0px;
+    
+        }
+      
+        .giua{
+            margin-top: 50px;
+            width: 800px;
+            height: 560px;
+           
+            float: left;
+            margin-left: 18%;
+            padding: 5px 0px 0px 15px;
+        }
+        .phai{
+            margin-top: 100px;
+            width: 280px;
+            height: 600px;
+            float: left;
+            padding-left: 10px;
+            /* position: fixed;
+            right: 0px; */
+            background-image: url(../img/cho.png);
+            background-repeat: repeat-x;
+        }
+        .trai a{
+           
+            font-size: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        
+        h2{
+            color: #288cc4;
+            
+        }
+        body{
+            font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+            color: #414141;
+        } 
+        #trai-menu>li>a{
+            color: black;
+            display: inline;
+        }
+        #trai-menu>li:hover>a{
+            color: cadetblue;
+        }    
+    </style>
+</head>
+<body>
+    <!-- phần menu -->
+    <div class="main1">
+	    <ul class="cap1-list">
+              
+				<li class="down">
+					<a class="letrai" href="#">Trang chủ</a>
+
+				</li>
+                <li class="down">
+					<a href="#">Giới thiệu</a>
+				</li>
+				<li class="down">
+					<a href="../trang con cap 1/khoahoc.html">Khóa học</a>
+					<div class="cap2-list">
+						<ul>
+							<li class="down1">
+								<a href="../trang con cap 2/word.html">Word</a>
+								<div class="cap3-list">
+                                    <ul>
+                                        <li>
+                                            <a href="../trang con cap 2/word.html">Bài giảng</a>
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/quiz-word.html">Quiz</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/baitapthword.html">Bài tập thực hành</a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</li>
+							<li class="down1">
+								<a href="../trang con cap 2/excle.html">Excle</a>
+                                <div class="cap3-list">
+                                    <ul>
+                                        <li>
+                                            <a href="../trang con cap 3/baitapthexcle.html">Bài giảng</a>
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/quiz-exlce.html">Quiz</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/baitapthexcle.html">Bài tập thực hành</a>
+                                        </li>
+                                    </ul>
+                                </div>
+								
+							</li>
+							<li class="down1" >
+								<a href="../trang con cap 2/ppt.html">Powerpoint</a>
+                                <div class="cap3-list">
+                                        <ul>
+                                            <li>
+                                                <a href="../trang con cap 2/ppt.html">Bài giảng</a>
+                                            </li>
+                                            <li>
+                                                <a href="../trang con cap 3/quiz-ppt.html">Quiz</a>
+                                                
+                                            </li>
+                                            <li>
+                                                <a href="../trang con cap 3/bt ppt.pdf">Bài tập thực hành</a>
+                                            </li>
+                                        </ul>
+							</li>
+						</ul>
+					</div>
+				</li>
+				
+                <li class="dangnhap">
+                    <a href="#">Nguyễn Duy Hải-CNTT</a>
+                    <div class="cap2dangnhap-list">
+                        <ul>
+                            <li><a href="../trang con cap 1/khoahoc.html">Các khóa học của tôi</a></li>
+                            <li><a href="#">Thoát</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="logodangnhap">
+                   <a href="#"> <img  src="../img/hoso.png" height="30px"  alt=""></a>
+                </li>
+            
+				
+		    </ul>
+	</div>
+    <!-- thân -->
+    
+    <div class="trai">
+        <div style="background-color: #E7E9EB;">
+            <h2 style="text-align:center; ">MS Powerpoint 2016</h2>
+            <ul id="trai-menu">
+                <li><a href="#phan1"> 1. Làm quen với Powerpoint 2016</a></li>
+                <li><a href="#phan2"> 2. Thao tác cơ bản trong Powerpoint</a></li>
+                <li><a href="#phan3"> 3. Giao diện và biểu mẫu slide</a>  </li>
+                <li><a href="#phan4"> 4. Thêm văn bản vào slide</a>  </li>
+                <li><a href="#phan5"> 5. Bảng biểu và đồ thị</a>  </li>
+                <li><a href="#phan6"> 6. Các đối tượng đồ họa</a> </li>
+                <li><a href="#phan7"> 7. Video hình, hình ảnh và âm thanh</a> </li>
+                <li><a href="#phan8"> 8. Tạo chuyển động và hiệu ứng</a> </li>
+                <li><a href="#phan9"> 9. Quản lý SLIDE bằng SLIDE SORTER</a></li>
+                <li><a href="../trang con cap 3/quiz-ppt.html">Quiz luyện tập</a></li>
+                <li><a href="../trang con cap 3/bt ppt.pdf">Bài tập thực hành</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="giua">
+        <!--Giới thiệu + phần 1 -->
+        <h2 class="tieudecon" id="phan1">Phần 1: Làm quen với Powerpoint 2016</h2><br><br>
+        <p>Khi bạn mở PowerPoint lần đầu thì sẽ xuất hiện một màn hình hướng dẫn cơ bản. Tại đây bạn sẽ thấy một số tính năng như tạo mới một trang, hoặc mở những file mà bạn đã lưu trước đó nếu có. Màn này này ta gọi là màn hình Start Screen. Tại đây bạn hãy click vào Blank Presentation để tạo một file PowerPoint mới.</p>
+        <br><br>
+        <img src="../img/word/31.png" alt=""> <br><br>
+        <p>Một cửa sổ mới xuất hiện. Đây chính là giao diện làm việc của bạn. Phía bên tay trái là danh sách các slides, và phía bên tay phải là chi tiết của từng slide. Bạn hãy thử click vào từng slide bên tay trái để cảm nhận.</p> <br><br>
+        <img src="../img/word/32.png" alt=""> <br><br>
+        <h2 class="tieudecon">Các thành công cụ trên Power Point 2016</h2><br><br>
+        <p>Môi trường làm việc của PowerPoint chủ yếu là thao tác với các thanh công cụ, vì vậy khi bạn hiểu rõ các tính năng thì sẽ rất dễ dàng lam viêc. Bên cành đó cũng giúp bạn đỡ bỡ ngỡ khi học các phiên bản cao hơn.</p><br><br>
+        <h3>Hệ thống Ribbon</h3> <br><br>
+        <p>Không giống như các phiên bản từ 2017 trở về trước. Từ phiên bản 2010 trở đi PowerPoint sư dụng Ribbon để gom nhóm những chức năng giống nhau lai. Điều này tạo ra một hệ thống Ribbon. <br><br>Ví dụ: Như hình ảnh dưới đây mình đã gộp những chức năng liên quan đến text thành một ribbon. <br><br></p>
+        <br><br><br><p>Trên đây là những kiến thức cơ bản về khóa học excle 2016. Chúc bạn học tốt!</p>
+        <img src="../img/word/33.png" alt=""> <br><br>
+        <h3 >Ẩn hiện Ribbon</h3><br><br>
+        <p>Để ẩn hoặc hiện các ribbon thì bạn thực hiện như sau: Click vào dấu mũi tên nhỏ ở góc trên phải của màn hình. Tại đây sẽ có 3 sự lựa chọn cho bạn.</p> <br><br>
+        <span><b>- Auto-hide Ribbon:</b> Tự động ẩn/hiển thị sổ làm việc của bạn ở chế độ toàn màn hình và ẩn hoàn toàn Ribbon. Để hiển thị Ribbon, nhấp vào lệnh Expand Ribbon ở đầu màn hình.</span>
+        <br><br><span><b>- Show Tabs:</b> Tùy chọn này ẩn tất cả các nhóm lệnh khi chúng không được sử dụng, nhưng các tab sẽ vẫn hiển thị. Để hiển thị Ribbon, chỉ cần nhấp vào tab.</span>
+        <br><br><span><b>- Show Tabs and Commands:</b> Tùy chọn này sẽ phóng to toàn bộ Ribbon. Tất cả các tab và lệnh sẽ hiển thị. Tùy chọn này được chọn theo mặc định khi bạn mở PowerPoint lần đầu tiên.
+        </span> <br><br>
+        <h3>Tính năng search - tell me</h3><br><br>
+        <p>Tính năng này không khác gì một thanh search cả. Nếu bạn thắc mắc gì thì có thể nhập vào thanh này và nó sẽ hiển thị những công cụ cho bạn. Lưu ý là nó chỉ hoạt động với tiếng Anh.</p>
+        <br><br><img src="../img/word/34.png" alt=""><br><br>
+        <h2 class="tieudecon">Quick Access Toolbar trong Word 2016</h2><br><br> 
+        <p>Quick Access Toolbar là chức năng tìm công cụ nhanh. Nó nằm ngay góc trái trên cùng của cửa sổ làm việc. Theo mặc định nó chỉ có 4 lệnh đó là: <br><br>&nbsp;&nbsp;&nbsp;&nbsp;- Save <br><br>&nbsp;&nbsp;&nbsp;&nbsp;- Undo <br><br>&nbsp;&nbsp;&nbsp;&nbsp;- Redo <br><br>&nbsp;&nbsp;&nbsp;&nbsp;- Start From Beginning <br><br>Nhưng bạn có thể thêm lệnh dễ dàng bằng cách sau: <br><br><b>Bước 1:</b> Click vào mũi tên góc trái trên cùng để mở thành Quick Access.</p>
+        <br><br><img src="../img/word/35.png" alt=""><br><br>
+        <p><b>Bước 2:</b> Chọn lệnh mà bạn muốn thêm vào thanh này.</p>
+        <br><br><img src="../img/word/36.png" alt=""><br><br>
+        <p>Giả sử mình chọn lệnh Quick Print thì giao diện lúc này sẽ như sau:</p> <br><br>
+        <img src="../img/word/37.png" alt=""><br><br>
+        <p>Video giới thiệu chi tiết</p> <br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DC6GysEQlpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- phần 2 -->
+        <h2 id="phan2">Phần 2: Thao tác cơ bản trong Powerpoint</h2><br><br>
+        <p>Bài này chúng ta sẽ tìm hiểu một số thao tác cơ bản để tạo Slide trình chiếu cho bài thuyết trình của chúng ta dựa trên những nội dung chúng ta cần trình bày. <br>Các bạn xem video hướng dẫn dưới đây:</p>
+        <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/dlTP81oanc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+        <!-- phần 3 -->
+        <h2 id="phan3">Phần 3: Giao diện và biểu mẫu Slide</h2><br><br>
+        <p>Bài này chúng ta sẽ biết được cách sử dụng giao diện sẵn có của Slide mà Microsoft cung cấp để giúp chúng ta tạo được những mẫu Slide thật sự ấn tượng, thu hút người xem. <br><br> Các bạn xem video hướng dẫn dưới đây:</p>
+        <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/18_j-QuLg-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+        <!-- phần 4 -->
+        <h2 id="phan4">Phần 4: Thêm văn bản vào Slide</h2><br><br>
+        <p>Bài này chúng ta sẽ bắt đầu thêm những nội dung văn bản vào Slide.  <br><br> Các bạn xem video hướng dẫn dưới đây:</p>
+        <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/V5EkLynm0Nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+        <!-- phần 5 -->
+        <h2 id="phan5">Phần 5: Bảng biểu và Đồ thị</h2><br><br>
+        <p>Bài này chúng ta sẽ biết được cách thêm các Bảng và Biểu đồ vào bài thuyết trình của chúng ta. Những nội dung này sẽ giúp người xem hình dung ra được nội dung chúng ta đang trình bày. <br><br> Các bạn xem video hướng dẫn dưới đây:</p>
+        <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/DPgvj4ukivY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+        <!-- phần 6 -->
+        <h2 id="phan6">Phần 6: Các Đối tượng Đồ họa</h2><br><br>
+        <p>Bài này các bạn sẽ biết cách thêm vào các hình ảnh, các đối tượng đồ họa để diễn đạt ý tưởng cho bài thuyết trình cho chúng ta. Nó cũng góp phần làm cho bài thuyết trình ấn tượng hơn. <br><br> Các bạn xem video hướng dẫn dưới đây:</p>
+        <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/PP3OYp11S3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+        <!-- phần 7 -->
+        <h2 id="phan7">Phần 7: Video, Hình ảnh và Âm thanh</h2><br><br>
+        <p>Bài này chúng ta sẽ biết cách sử dụng Hình ảnh, Video và Âm thanh vào bài thuyết trình của chúng ta trên Power Point 2016. <br><br> Các bạn xem video hướng dẫn dưới đây:</p>
+        <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/SRWNNR325Dk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+        <!-- phần 8 -->
+        <h2 id="phan8">Phần 8: Tạo CHUYỂN ĐỘNG và HIỆU ỨNG</h2><br><br>
+        <p>Bài này chúng ta sẽ biết được cách TẠO CHUYỂN ĐỘNG và HIỆU ỨNG cho SLIDE và các ĐỐI TƯỢNG của SLIDE nhắm tạo bài thuyết trình thật ấn tượng trong Power Point 2016. <br><br> Các bạn xem video hướng dẫn dưới đây:</p>
+        <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/UHvSXey68ME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+        <!-- phần 9 -->
+        <h2 id="phan9">Phần 9: Quản lý SLIDE bằng SLIDE SORTER</h2><br><br>
+        <p>Bài này các bạn sẽ biết được cách tổ chức, sắp xếp các SLIDE bằng SLIDE SORTER của POWER POINT 2016.  <br><br> Các bạn xem video hướng dẫn dưới đây:</p>
+        <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/dWxluux2WLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+        <br><br><br><p>Trên đây là những kiến thức cơ bản về khóa học excle 2016. Chúc bạn học tốt!</p>
+    </div>
+    <div class="phai">
+       
+    </div>
+</body>
+</html>

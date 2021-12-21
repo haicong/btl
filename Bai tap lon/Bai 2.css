@@ -1,0 +1,241 @@
+.main{
+	width: 100%;
+	height: 100px;
+}
+
+.main1{
+	width: 100%;
+	height: 50px;
+	background-color:rgb(6, 44, 116);
+	position: fixed;
+	top: 0px;
+
+}
+#than{
+	margin-top: 70px;
+}
+
+.main3{
+	margin:0px 35px 0px 20px ;
+	padding-top: 0.5px;
+}
+.main3-anh{
+	margin: 30px 0px 50px 0px;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;	
+	color: black;
+	padding: 0px 20px;
+	line-height: 50px;
+	display: block;
+	font-weight: bold;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+}
+.tieude{
+	width: 931px;
+	height: 40px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+li{
+	list-style: none;
+}
+.cap1-list li{
+	float: left;
+}
+.dangnhap{
+	margin: 0px 0px 0px 710px;
+}
+
+.cap1-list> li:hover> a{
+	background-color: gray;
+}
+.down{
+	position: relative;
+}
+.down .cap2-list{
+	position: absolute;
+}
+.cap2-list{
+	width: 160px;
+	height: 150px;
+	background-color: #198a19;
+	display: none;
+}
+.cap2-list>ul>li>a{
+	display: block;
+	width: 120px;
+}
+.cap1-list .down:hover .cap2-list{
+	display: block;
+}
+.cap2-list>ul>li:hover>a{
+	background-color: gray;
+}
+.down1{
+	position: relative;
+}
+
+
+.letrai{
+	padding-left: 35px;
+}
+.main2{
+	width: 931px;
+	height: 600px;
+}
+.main2> img{
+	height: 315px;
+	margin: 0px 5px;
+}
+
+p{
+	font-size: 20px;
+}
+
+.main2{
+	margin: 20px 5px 5px 35px;
+}
+.main2>h3{
+	margin-top: 25px;
+	padding: 0px 290px;
+}
+.main2-cuoi{
+	margin-top: 20px;
+	background-color: #F1F1F1;
+}
+.main2{
+	float: left;
+}
+/* menu cấp 3 */
+.down1{
+	position: relative;
+}
+.cap3-list{
+	background-color: #198a19;
+	position: absolute;
+	left: 160px;
+	top: 0px;
+	width: 170px;
+	display: none;
+}
+.cap2-list .down1:hover .cap3-list{
+	display: block;
+}
+.cap3-list>ul>li:hover>a{
+	background-color: grey;
+}
+.cap3-list>ul>li>a{
+	width: 130px;
+}
+/* css phần giới thiệu 3 khóa học wep */
+.khoahoc{
+	width: 931px;
+	background-color: #c6dff1;
+}
+.khoahoc-word{
+	width: 300px;
+	height: 400px;
+	background-color: #31343d;
+	border-radius: 20px;
+	float: left;
+	margin: 0px 5px 0px 0px;
+	
+}
+.khoahoc-word> a{
+	color: #76654f;
+	font-size: 20px;
+}
+.khoahoc-excle{
+	width: 300px;
+	height: 400px;
+	float: left;
+	background-color: #31343d;
+	border-radius: 20px;
+	margin: 0px 5px 0px 5px;
+}
+.khoahoc-excle> a{
+	color: #76654f;
+	font-size: 20px;
+}
+.khoahoc-ppt{
+	width: 300px;
+	height: 400px;
+	float: left;
+	background-color: #31343d;
+	border-radius: 20px;
+	margin: 0px 0px 0px 5px;
+}
+.khoahoc-word>p{
+	margin: 0px 5px;
+	font-size: 15px;
+	color:#757575;
+}
+.khoahoc-excle>p{
+	margin: 0px 5px;
+	font-size: 15px;
+	color:#757575;
+}
+.khoahoc-ppt>p{
+	margin: 0px 5px;
+	font-size: 15px;
+	color:#757575;
+}
+.khoahoc-ppt> a{
+	color: #76654f;
+	font-size: 20px;
+}
+
+/* giới thiệu blog */
+.gioithieu{
+	margin: 10px 80px 10px 35px;
+	height: 300px;
+	background-color: hotpink;
+	position: relative;
+}
+.gioithieu> .nd{
+	width: 600px;
+	position: absolute;
+	top: 70px;
+	left: 100px;
+}
+.nd>p{
+	color: #757575;
+}
+.gioithieu>.xemchitiet{
+	width: 300px;
+	height: 30px;
+	position:absolute;
+	top: 180px;
+	left: 80px;
+	width: 100px;
+	text-align: center;
+}
+.gioithieu>.xemchitiet>a{
+	width: 100px;
+	line-height: 30px;
+	position: absolute;
+	top: 0xp;
+}
+.gioithieu>.anhblog{
+	position: absolute;
+	right: 120px;
+	top: 40px;
+	
+}
+.gioithieu>.anhblog>img{
+	border-radius: 400px;
+}
+/* chân trang */
+.chantrang{
+	width: 100%;
+	height: 300px;
+	background-color: rgb(34, 64, 196);
+}

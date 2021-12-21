@@ -1,0 +1,488 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word</title>
+    <style>
+        .main{
+	width: 100%;
+	height: 100px;
+    }
+
+    .main{
+	        width: 100%;
+	        height: 100px;
+         }
+
+        .main1{
+            width: 100%;
+            height: 50px;
+            background-color:rgb(6, 44, 116);
+            position: fixed;
+            top: 0px;
+
+        }
+        #than{
+            margin-top: 70px;
+        }
+
+        .main3{
+            margin:0px 35px 0px 20px ;
+            padding-top: 0.5px;
+        }
+        .main3-anh{
+            margin: 30px 0px 50px 0px;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        a{
+            text-decoration: none;	
+            color: black;
+            padding: 0px 20px;
+            line-height: 50px;
+            display: block;
+            font-weight: bold;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .tieude{
+            width: 931px;
+            height: 40px;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        li{
+            list-style: none;
+        }
+        .cap1-list li{
+            float: left;
+        }
+        .dangnhap{
+            margin-left: 700px;
+            /* position: relative; */
+        }
+       
+        .cap2dangnhap-list{
+            width: 160px;
+            height: 150px;
+            background-color: #0626b3;
+            border-radius: 4px;
+            position: absolute;
+        }
+
+        .cap1-list> li:hover> a{
+            color: rgb(86, 121, 236);
+        }
+        .down{
+            position: relative;
+        }
+        .down .cap2-list{
+            position: absolute;
+        }
+        .cap2-list{
+            width: 160px;
+            height: 150px;
+            background-color: #0626b3;
+            display: none;
+            border-radius: 4px;
+        }
+        .cap2-list>ul>li>a{
+            display: block;
+            width: 120px;
+        }
+        .cap1-list .down:hover .cap2-list{
+            display: block;
+        }
+        .cap2-list>ul>li:hover>a{
+            background-color: rgb(134, 170, 236);
+	        border-radius: 4px;
+        }
+        .down1{
+            position: relative;
+        }
+
+
+        .letrai{
+            padding-left: 35px;
+        }
+        .main2{
+            width: 931px;
+            height: 600px;
+        }
+        .main2> img{
+            height: 315px;
+            margin: 0px 5px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        .main2{
+            margin: 20px 5px 5px 35px;
+        }
+        .main2>h3{
+            margin-top: 25px;
+            padding: 0px 290px;
+        }
+        .main2-cuoi{
+            margin-top: 20px;
+            background-color: #F1F1F1;
+        }
+        .main2{
+            float: left;
+        }
+        /* menu cấp 3 */
+        .down1{
+            position: relative;
+        }
+        .cap3-list{
+            background-color: #4548dd;
+            position: absolute;
+            left: 160px;
+            top: 20px;
+            width: 170px;
+            display: none;
+            border-radius: 4px;
+        }
+        .cap2-list .down1:hover .cap3-list{
+            display: block;
+        }
+        .cap3-list>ul>li:hover>a{
+            background-color: rgb(110, 182, 241);
+        }
+        .cap3-list>ul>li>a{
+            width: 130px;
+        }
+        /* cấp 2 chỗ thông tin cá nhân */
+        .logodangnhap{
+            padding-top: 10px;
+        }
+        .cap2dangnhap-list{
+            width: 190px;
+            height: 100px;
+            display: none;
+        }
+        .cap2dangnhap-list>ul>li:hover>a{
+            background-color: rgb(134, 170, 236);
+	        border-radius: 4px;
+        }
+        .cap2dangnhap-list>ul>li>a{
+            width: 150px;
+        }
+        .dangnhap:hover>.cap2dangnhap-list{
+            display: block;
+        }
+        /* hết menu */
+        .trai{
+            width: 17%;
+            height: 560px;
+            /* background-color: rgb(68, 82, 124); */
+            margin-top: 50px;
+            border: 1px solid#333;
+            overflow-y: scroll;
+            font-size: 13px;
+            position: fixed;
+            left: 0px;
+            padding: 0px 0px 20px 0px;
+    
+        }
+      
+        .giua{
+            margin-top: 50px;
+            width: 800px;
+            height: 560px;
+           
+            float: left;
+            margin-left: 18%;
+            padding: 5px 0px 0px 15px;
+        }
+        .phai{
+            margin-top: 100px;
+            width: 280px;
+            height: 600px;
+            float: left;
+            padding-left: 10px;
+            /* position: fixed;
+            right: 0px; */
+            background-image: url(../img/cho.png);
+            background-repeat: repeat-x;
+        }
+        .trai a{
+           
+            font-size: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        
+        h2{
+            color: #288cc4;
+            
+        }
+        body{
+            font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+            color: #414141;
+        } 
+        #trai-menu>li>a{
+            color: black;
+            display: inline;
+        }
+        #trai-menu>li:hover>a{
+            color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="main1">
+	    <ul class="cap1-list">
+              
+				<li class="down">
+					<a class="letrai" href="#">Trang chủ</a>
+
+				</li>
+                <li class="down">
+					<a href="#">Giới thiệu</a>
+				</li>
+				<li class="down">
+					<a href="../trang con cap 1/khoahoc.html">Khóa học</a>
+					<div class="cap2-list">
+						<ul>
+							<li class="down1">
+								<a href="../trang con cap 2/word.html">Word</a>
+								<div class="cap3-list">
+                                    <ul>
+                                        <li>
+                                            <a href="../trang con cap 2/word.html">Bài giảng</a>
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/quiz-word.html">Quiz</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/baitapthword.html">Bài tập thực hành</a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</li>
+							<li class="down1">
+								<a href="../trang con cap 2/excle.html">Excle</a>
+                                <div class="cap3-list">
+                                    <ul>
+                                        <li>
+                                            <a href="../trang con cap 3/baitapthexcle.html">Bài giảng</a>
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/quiz-exlce.html">Quiz</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/baitapthexcle.html">Bài tập thực hành</a>
+                                        </li>
+                                    </ul>
+                                </div>
+								
+							</li>
+							<li class="down1" >
+								<a href="../trang con cap 2/ppt.html">Powerpoint</a>
+                                <div class="cap3-list">
+                                        <ul>
+                                            <li>
+                                                <a href="../trang con cap 2/ppt.html">Bài giảng</a>
+                                            </li>
+                                            <li>
+                                                <a href="../trang con cap 3/quiz-ppt.html">Quiz</a>
+                                                
+                                            </li>
+                                            <li>
+                                                <a href="../trang con cap 3/bt ppt.pdf">Bài tập thực hành</a>
+                                            </li>
+                                        </ul>
+							</li>
+						</ul>
+					</div>
+				</li>
+				
+                <li class="dangnhap">
+                    <a href="#">Nguyễn Duy Hải-CNTT</a>
+                    <div class="cap2dangnhap-list">
+                        <ul>
+                            <li><a href="../trang con cap 1/khoahoc.html">Các khóa học của tôi</a></li>
+                            <li><a href="#">Thoát</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="logodangnhap">
+                   <a href="#"> <img  src="../img/hoso.png" height="30px"  alt=""></a>
+                </li>
+            
+				
+		    </ul>
+	</div>
+    <div class="trai">
+        
+        <div style="background-color: #E7E9EB;">
+            <h2 style="text-align:center; ">MS Word 2016</h2>
+            <ul id="trai-menu">
+                <li><a href="#phan1"> 1. Làm quen với giao diện Ribbon</a></li>
+                <li><a href="#phan2"> 2. Làm quen với OneDrive, tạo, lưu và chia sẻ tài liệu</a></li>
+                <li><a href="#phan3"> 3. Làm quen với thao tác văn bản cớ bản</a> </li>
+                <li><a href="#phan4"> 4. Cách đọc và chỉnh sửa tài liệu</a> </li>
+                <li><a href="#phan5"> 5. Chỉnh sửa văn bản word</a> </li>
+                <li><a href="#phan6"> 6. Định dạng đoạn văn</a> </li>
+                <li><a href="#phan7"> 7. Bảng biểu(Table) và đồ thị (Chart)</a></li>
+                <li><a href="#phan8"> 8. Định dạng trang in</a></li>
+                <li><a href="#phan9"> 9. In tài liệu trong word 2016</a></li>
+                <li><a href="../trang con cap 3/quiz-word.html">Quiz luyện tập</a></li>
+                <li><a href="../trang con cap 3/baitapthword.html">Bài tập thực hành</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="giua">
+        <!-- phần 1 -->
+        <a href="https://quizizz.com/join?gc=106715">quiz</a>
+        <h2 id="phan1">Phần 1: Giới thiệu</h2> <br> <br>
+        <p>Microsoft Word 2016 là một ứng dụng xử lý văn bản, cho phép bạn có thể tạo ra một loạt các tài liệu, bao gồm thư, sơ yếu lý lịch và nhiều văn bản tài liệu khác. Trong bài viết dưới đây Quản trị mạng sẽ hướng dẫn bạn cách làm thế nào để điều hướng giao diện Word và sử dụng một số tính năng quan trọng của Word 2016 như thanh Ribbon, Quick Access Toolbar, và Backstage View.
+
+            Ngoài ra bạn đọc có thêm xem thêm video tổng quan các tính năng mới trên Word 2016 dưới đây:</p>
+        <br><br>
+            <iframe  width="560" height="315" src="https://www.youtube.com/embed/UGpod7WlwJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br> <br>
+        <span style="font-size: 20px;">Nếu chưa có bộ cài đặt Office 2016, bạn có thể tải về máy và cài đặt<a style="color: red;  display: inline;" href="https://vqt2.x8top.net/tmp082020/cf/larger/2021/sa/1/MSOffice_2016_64bit.zip" download="">tại đây</a></span>
+        <h2>1. Làm quen với Word 2016</h2> <br> <br>
+        <p>Word 2016 cũng tương tự như Word 2013 và Word 2010. Nếu đã sử dụng một trong hai phiên bản Word đó, khi sử dụng Word 2016 bạn sẽ cảm thấy nó khá giống nhau. Tuy nhiên nếu là người dùng mới sử dụng Word hoặc nếu có nhiều kinh nghiệm sử dụng các phiên bản Word cũ, bạn sẽ mất một khoảng thời gian để làm quen với giao diện Word 2016.</p>
+        <br><br>
+        <h2>2. Giao diện Word 2016</h2><br><br>
+        <p>Lần đầu tiên mở Word, cửa sổ Start Screen sẽ xuất hiện và hiển thị trên màn hình. Tại đây bạn sẽ có thể tạo một văn bản mới, chọn một template và truy cập các tài liệu mới chỉnh sửa gần đây. Từ màn hình Start Screen, điều hướng và chọn Blank document để truy cập giao diện Word.</p>
+        <br><br>
+        <img src="../img/word/1.png" alt=""><br><br><br><br>
+        <h2>Phần 2: Làm việc với môi trường Word</h2><br><br>
+        <p>Giống như các phiên bản khác, Word 2016 tiếp tục sử dụng các tính năng như Ribbon và Quick Access Toolbar - nơi bạn sẽ tìm thấy các lệnh để thực hiện các nhiệm vụ, thao tác đơn giản trên Word, cũng như Backstage View.</p>
+        <br><br>
+        <h2>I. Ribbon</h2><br><br>
+        <p>Word sử dụng hệ thống Ribbon theo tab chứ không còn sử dụng menu truyền thống như trước nữa. Ribbon chứa nhiều tab, và bạn có thể tìm thấy các tab này ở gần phía trên cửa sổ giao diện Word.</p>
+        <br><br><img src="../img/word/2.png" alt=""><br><br>
+        <p>Mỗi tab lại chứa nhiều group liên quan đến các lệnh. Cho ví dụ, group Font trên tab Home chứa các lệnh chỉnh sửa định dạng văn bản cho tài liệu văn bản của bạn.</p>
+        <br><br><img src="../img/word/3.png" alt=""><br><br>
+        <p>Ngoài ra một số group khác có thêm biểu tượng mũi tên nhỏ ở góc dưới cùng bên phải, khi bạn click vào biểu tượng mũi tên đó sẽ hiển thị thêm nhiều tùy chọn khác nhau.</p>
+        <br><br><img src="../img/word/4.png" alt=""><br><br>
+        <h2>1. Hiện và ẩn thanh Ribbon</h2><br><br>
+        <p>Nếu cảm thấy thanh Ribbon chiếm dụng không gian màn hình quá nhiều, bạn có thể thao tác vài bước để ẩn thanh Ribbon đi. Để làm được điều này, click vào biểu tượng mũi tên Ribbon Display Options ở góc trên cùng bên phải thanh Ribbon, sau đó chọn một tùy chọn mô tả từ menu drop down:</p>
+        <br><br> <img src="../img/word/5.png" alt=""><br><br>
+        <p>- Auto-hide Ribbon: Tự động hiển thị tài liệu của bạn ở chế độ toàn màn hình và ẩn thanh Ribbon hoàn toàn. Để hiển thị Ribbon, click vào lệnh Expand Ribbon ở góc trên cùng màn hình.
+
+            <br> - Show Tabs: Tùy chọn này để ẩn tất cả các lệnh trong group khi người dùng không sử dụng đến, nhưng các tab thì vẫn hiển thị. Để hiển thị Ribbon, rất đơn giản chỉ cần click vào một tab.
+            
+           <br> - Show Tabs and Commands: Tùy chọn này để tối đa hóa Ribbon. Tất cả các tab và lệnh vẫn sẽ được nhìn thấy. Tuy nhiên theo mặc định tùy chọn này sẽ bị ẩn trong lần đầu tiên bạn mở Word.</p>
+           <br><br><h2>2. Sử dụng tính năng Tell me</h2>    
+           <br><br><img src="../img/word/6.png" alt=""><br><br>
+        <p>Nếu đang gặp khó khăn trong việc tìm kiếm các lệnh mà bạn muốn sử dụng, tính năng Tell me có thể giúp bạn làm điều này. Tính năng này hoạt động tương tự như thanh tìm kiếm (Search bar) thông thường: Nhập tùy chọn mà bạn muốn tìm kiếm, và trên màn hình sẽ hiển thị danh sách các tùy chọn. Bạn có thể sử dụng lệnh trực tiếp từ menu mà không cần tìm trên thanh Ribbon.</p>
+        <br><br>
+        <!-- phần 2 -->
+        <br><br><br><br><br><br><br>
+        <h2 id="phan2">(Phần 2): Làm quen với OneDrive, tạo, lưu và chia sẻ tài liệu</h2>
+        <br><br><h2>Phần 1: Làm quen với OneDrive</h2><br><br>
+        <p>Nhiều tính năng mới trên Office đang hướng đến mục tiêu lưu và chia sẻ các tập tin trực tuyến. OneDrive là không gian lưu trữ trực tuyến của Microsoft mà bạn có thể sử dụng để lưu, chỉnh sửa và chia sẻ tài liệu cũng như các tập tin khác của mình.
+
+            Ngoài ra bạn có thể truy cập OneDrive trên các thiết bị như máy tính, điện thoại di động hoặc các thiết bị khác mà bạn sử dụng.
+            
+            Để bắt đầu sử dụng OneDrive, tất cả những gì bạn cần làm là thiết lập một tài khoản Microsoft miễn phí (trong trường hợp nếu chưa có).</p>
+        <p>Sau khi đã có tài khoản Microsoft, bước tiếp theo bạn cần làm là đăng nhập Office. Chỉ cần click chọn Sign in ở góc trên cùng cửa sổ Windows.</p>
+        <br><br><img src="../img/word/7.png" alt=""><br><br>
+        <h2>1. Những lợi ích khi sử dụng OneDrive</h2><br><br>
+        <p>Sau khi đã đăng nhập tài khoản Microsoft, bạn có thể thực hiện được một số thao tác này với OneDrive:
+
+           <br> - Truy cập các tập tin ở bất kỳ nơi đâu: Khi lưu các tập tin trên OneDrive, bạn có thể truy cập các tập tin đó trên bất kỳ các thiết bị như máy tính, máy tính bảng hoặc điện thoại thông minh được kết nối mạng Internet. Ngoài ra bạn cũng có thể tạo một tài liệu văn bản mới trên OneDrive.
+            
+           <br> - Sao lưu các tập tin: Khi lưu trữ các tập tin trên OneDrive còn cung cấp cho bạn thêm lớp bảo vệ các dữ liệu, tập tin. Nếu xảy ra bất kỳ sự cố nào trên máy tính, OneDrive sẽ lưu trữ các tập tin an toàn và bạn có thể truy cập. <br>- Chia sẻ các tập tin: Bạn có thể dễ dàng chia sẻ các tập tin trên OneDrive với bạn bè, người thân và đồng nghiệp. Ngoài ra bạn còn có thể lựa chọn chỉnh sửa hoặc chỉ đọc các tập tin hoặc không.</p>
+           <br><br><h2>2. Lưu và mở các tập tin</h2><br><br>
+        <p>Sau khi đăng nhập tài khoản Microsoft, OneDrive sẽ hiển thị dưới dạng tùy chọn bất cứ khi nào bạn mở hoặc lưu trữ một tập tin.
+
+            Ngoài ra bạn vẫn còn tùy chọn để lưu trữ các tập tin trên máy tính. Nhưng tuy nhiên việc lưu trữ các tập tin trên OneDrive cho phép bạn có thể truy cập trên bất kỳ một thiết bị khác máy tính, và cho phép bạn có thể chia sẻ các tập tin đó với bạn bè, người thân, đồng nghiệp.
+            
+            Chẳng hạn như khi click chọn Save As, bạn có thể lựa chọn các vị trí lưu trữ như OneDrive hoặc This PC.</p>
+            <br><br><img src="../img/word/8.png" alt=""><br><br>
+        <h2>Phần 2: Tạo và mở tài liệu</h2><br><br>
+        <h2>1. Giới thiệu</h2><br><br>
+        <p>File Word còn được gọi là tài liệu. Bất cứ khi nào mở một dự án mới trên Word, bạn sẽ phải tạo một tài liệu mới trống hoặc từ một template.</p>
+        <p>Bạn đọc có thể tham khảo thêm các bước để tạo và mở tà liệu trên Word trong video dưới đây:</p>
+        <br><br> <iframe width="560" height="315" src="https://www.youtube.com/embed/PafCMUVH_OA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><br><h2>2. Tạo một tài liệu trống</h2><br><br>
+        <p>Khi bắt đầu một dự án mới trên Word, bước đầu tiên bạn sẽ phải mở một tài liệu trống.
+
+         <br>   a. Chọn tab File để truy cập Backstage view.</p>
+         <br><br> <img src="../img/word/9.png" alt=""><br><br>
+         <br><br><p>b. Chọn New, sau đó click chọn Blank document.</p>
+         <br><br> <img src="../img/word/10.png" alt=""><br><br>
+        <p>c. Lúc này trên màn hình sẽ xuất hiện một tài liệu trống.</p>
+        <br><br> <h2>3. Tạo một tài liệu mới từ Template</h2><br><br>
+        <br><br><p>Template được thiết kế và có trước tài liệu, người dùng có thể sử dụng Template để tạo một tài liệu mới nhanh chóng. Template thường bao gồm các định dạng tùy chỉnh và thiết kế, do đó có thể giúp bạn tiết kiệm được một khoảng thời gian và công sức khi mở một dự án mới. <br>a. Click chọn tab File để truy cập Backstage view, sau đó chọn New. <br> b. Lúc này ở phía dưới tùy chọn Blank document sẽ xuất hiện một loạt các Template. Bạn có thể sử dụng thanh Seach (tìm kiếm) để tìm các Template cụ thể. Trong ví dụ dưới đây là tìm kiếm Template có tên Flyer. <br>c. Bạn có thể lựa chọn một Template để xem trước. <br> d. Và trên màn hình sẽ xuất hiện bản xem trước của Template. Click chọn Create để sử dụng Template đã chọn.</p>
+        <br><br> <h2>4. Mở một tài liệu có sẵn</h2><br><br>
+        <p>Ngoài việc tạo một tài liệu mới, bạn sẽ thường xuyên phải mở một tài liệu có sẵn mà bạn đã lưu trước đó. a. Điều hướng đến Backstage view, sau đó click chọn Open.<br></p>
+        <br><br><img src="../img/word/11.png" alt=""> <br><br>
+        <p>b. Chọn This PC, sau đó click chọn Browse. Hoặc cách khác bạn có thể lựa chọn OneDrive để mở tập tin đã lưu trữ trên OneDrive.</p>
+        <br><br> <img src="../img/word/12.png" alt=""><br><br>
+        <p>c. Lúc này trên màn hình xuất hiện hộp thoại Open, điều hướng và chọn tài liệu của bạn, sau đó click chọn Open.</p>
+        <br><br><img src="../img/word/13.png" alt=""><br><br>
+        <p>d. Tài liệu mà bạn chọn sẽ xuất hiện trên màn hình</p>
+        <br><br><h2>5. Làm thế nào để ghim một tài liệu?</h2><br><br>
+        <p>Nếu thường xuyên làm việc, sử dụng một tài liệu bạn có thể ghim tài liệu đó vào Backstage view để truy cập nhanh hơn. <br> a. Điều hướng đến Backstage view, sau đó click chọn Open, rồi click chọn Recent. <br>b. Một danh sách các tài liệu chỉnh sửa gần đây sẽ xuất hiện. Di chuột qua tài liệu mà bạn muốn ghim, sau đó click chọn biểu tượng đinh ghim. <br></p>
+        <br><br><img src="../img/word/14.png" alt=""><br><br>
+        <p>c. Tài liệu đó sẽ được ghim vào danh sách các tài liệu gần đây (Recent documents) cho đến khi bạn bỏ ghim. Để bỏ ghim một tài liệu, click chọn biểu tượng đinh ghim một lần nữa.</p>
+        <br><br><img src="../img/word/15.png" alt=""><br><br>
+        <h2>Phần III: Lưu và chia sẻ tài liệu</h2><br><br>
+        <h2>1. Giới thiệu</h2><br><br>
+        <p>Khi tạo một tài liệu mới trên Word, bạn sẽ phải biết cách làm thế nào để lưu lại tài liệu đó để truy cập và chỉnh sửa. Trên các phiên bản Microsoft Word trước bạn có thể dễ dàng lưu các tập tin trên máy tính. Ngoài ra nếu muốn bạn còn có thể lưu các tập tin lên dịch vụ đám mây bằng cách sử dụng OneDrive.</p>
+        <br><br><p>Thậm chí bạn còn có thể xuất (export) và chia sẻ các tài liệu trực tiếp từ Word.
+
+            Xem thêm video hướng dẫn cách làm thế nào để lưu và chia sẻ tài liệu Word dưới đây:</p>
+            <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/Az-i8sZHwcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br> <h2>2. Save và Save As</h2><br><br>
+        <p>Word cung cấp cho người dùng 2 tùy chọn để lưu một tập tin bất kỳ: Save và Save As. Nhìn chung thì 2 tùy chọn này hoạt động tương tự nhau, chỉ khác nhau một số thiết lập quan trọng. <br> <br>- Save: Khi bạn tạo hoặc chỉnh sửa một tài liệu bất kỳ, bạn sẽ sử dụng lệnh Save để lưu lại các thay đổi. Trong hầu hết các trường hợp bạn sẽ sử dụng lệnh này. Khi lưu một tập tin, bước đầu tiên bạn chỉ cần đặt tên cho tập tin đó và tìm vị trí lưu tập tin. Sau khi hoàn tất quá trình chỉnh sửa, click chọn lệnh Save để lưu lại tập tin đó trên cùng một vị trí và cùng một tên. <br> <br>- Save As: Sử dụng lệnh này để tạo một bản sao chép tài liệu trong khi vẫn giữ nguyên bản gốc. Và khi sử dụng lệnh Save As bạn sẽ phải đặt một tên khác và tìm vị trí khác để lưu bản sao chép đó. <br></p>
+        <br><br><h2>3. Lưu một tài liệu</h2><br><br>
+        <p>Bất cứ khi nào bạn mở một dự án mới hoặc thực hiện một số thay đổi trên tài liệu Word của mình, điều quan trọng nhất là phải lưu lại tài liệu đó. Việc lưu các tài liệu càng sớm và thường xuyên giúp bạn không còn phải lo sẽ mất tài liệu nữa. Ngoài ra bạn cũng cần chú ý đến vị trí lưu tài liệu để có thể tìm và mở tài liệu dễ dàng hơn. <br> a. Điều hướng và chọn lệnh Save trên Quick Access Toolbar. <br></p>
+        <br><br><img src="../img/word/16.png" alt=""><br><br>
+        <p>b. Nếu lần đầu tiên lưu các tập tin, cửa sổ Save As sẽ hiển thị trên Backstage view. <br> <br>c. Bước tiếp theo bạn cần làm là chọn vị trí lưu tập tin và đặt tên cho tập tin đó. Click chọn Browse để lựa chọn một vị trí lưu tập tin trên máy tính. Hoặc cách khác là bạn có thể click chọn OneDrive để lưu tập tin trên OneDrive.</p>
+        <br><br><img src="../img/word/17.png" alt=""><br><br>
+        <p>d. Lúc này hộp thoại Save As sẽ xuất hiện. Chọn vị trí mà bạn muốn lưu tài liệu. <br>e. Đặt tên cho tập tin rồi click chọn Save.</p>
+        <br><br> <img src="../img/word/18.png" alt=""><br><br>
+        <p>f. Tài liệu sẽ được lưu lại. Bạn có thể click chọn lệnh Save một lần nữa để lưu lại các chỉnh sửa trên tài liệu <br> <br>Ngoài ra bạn còn có thể truy cập lệnh Save bằng cách nhấn tổ hợp phím Ctrl + S.</p>
+        <!-- phần 3 -->
+        <br><br> <h2 id="phan3">Phần 3:Làm quen với thao tác văn bản cơ bản</h2> 
+        <br><br><p>Bạn xem video thao tác cơ bản khi làm việc với văn bản trên Word trong video dưới đây:</p> <br><br>
+        <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/SDpN6i8BUHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- Phần 4 -->
+        <br><br><h2 id="phan4">Phần 4: Cách đọc và chỉnh sửa văn bản</h2> 
+        <br><br><p>Bạn xem video hướng dẫn cách đọc và chỉnh sửa văn bản dưới đây: </p> <br> <br>
+        <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/9UBpEDaWfTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- Phần 5 -->
+        <br><br><h2 id="phan5">Phần 5: Chỉnh sửa văn bản word</h2>
+        <br><br><p>Bạn xem video hướng dẫn cách chỉnh sửa văn bẳn word dưới đây:</p> <br> <br>
+        <br><br>  <iframe width="560" height="315" src="https://www.youtube.com/embed/zFQEzOCXuSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- Phần 6 -->
+        <br><br><h2 id="phan6">Phần 6: Định dạng đoạn văn</h2>
+        <br><br><p>Bạn xem video hướng dẫn cách định dạng đoạn văn bản dưới đây:</p> <br><br>
+        <br><br> <iframe width="560" height="315" src="https://www.youtube.com/embed/yLgC-XMygg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- Phần 7 -->
+        <br><br> <h2 id="phan7">Phần 7: Bảng biểu(Table) và đồ thị (Chart)</h2>
+        <br><br><p>Bạn xem video hướng dẫn cách Chèn bảng biểu và đồ thị dưới đây:</p> <br> <br>
+        <br><br> <iframe width="560" height="315" src="https://www.youtube.com/embed/tM_MMvM9yB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- Phàn 8 -->
+        <br><br> <h2 id="phan8">Phần 8: Định dạng trang in</h2>
+        <br><br><p>Bạn xem video hướng dẫn cách định dạng trang in dưới đây:</p> <br><br>
+        <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/AzV-wXk6y5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- Phần 9 -->
+        <br><br><h2 id="phan9">Phần 9: In tài liệu trong Word 2016</h2>
+        <br><br> <p>Bạn xem video hướng dẫn cahs in tài liệu trong Word 2016</p> <br> <br>
+        <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/CcInvPs61X8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+    </div>
+    <div class="phai">
+        <!-- <img width="270px" src="../img/cho.png" alt=""> -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,397 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excle</title>
+    <style>
+        .main{
+	width: 100%;
+	height: 100px;
+    }
+
+    .main{
+	        width: 100%;
+	        height: 100px;
+         }
+
+        .main1{
+            width: 100%;
+            height: 50px;
+            background-color:rgb(6, 44, 116);
+            position: fixed;
+            top: 0px;
+
+        }
+        #than{
+            margin-top: 70px;
+        }
+
+        .main3{
+            margin:0px 35px 0px 20px ;
+            padding-top: 0.5px;
+        }
+        .main3-anh{
+            margin: 30px 0px 50px 0px;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        a{
+            text-decoration: none;	
+            color: black;
+            padding: 0px 20px;
+            line-height: 50px;
+            display: block;
+            font-weight: bold;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .tieude{
+            width: 931px;
+            height: 40px;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        li{
+            list-style: none;
+        }
+        .cap1-list li{
+            float: left;
+        }
+        .dangnhap{
+            margin-left: 700px;
+            /* position: relative; */
+        }
+       
+        .cap2dangnhap-list{
+            width: 160px;
+            height: 150px;
+            background-color: #0626b3;
+            border-radius: 4px;
+            position: absolute;
+        }
+
+        .cap1-list> li:hover> a{
+            color: rgb(86, 121, 236);
+        }
+        .down{
+            position: relative;
+        }
+        .down .cap2-list{
+            position: absolute;
+        }
+        .cap2-list{
+            width: 160px;
+            height: 150px;
+            background-color: #0626b3;
+            display: none;
+            border-radius: 4px;
+        }
+        .cap2-list>ul>li>a{
+            display: block;
+            width: 120px;
+        }
+        .cap1-list .down:hover .cap2-list{
+            display: block;
+        }
+        .cap2-list>ul>li:hover>a{
+            background-color: rgb(134, 170, 236);
+	        border-radius: 4px;
+        }
+        .down1{
+            position: relative;
+        }
+
+
+        .letrai{
+            padding-left: 35px;
+        }
+        .main2{
+            width: 931px;
+            height: 600px;
+        }
+        .main2> img{
+            height: 315px;
+            margin: 0px 5px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        .main2{
+            margin: 20px 5px 5px 35px;
+        }
+        .main2>h3{
+            margin-top: 25px;
+            padding: 0px 290px;
+        }
+        .main2-cuoi{
+            margin-top: 20px;
+            background-color: #F1F1F1;
+        }
+        .main2{
+            float: left;
+        }
+        /* menu cấp 3 */
+        .down1{
+            position: relative;
+        }
+        .cap3-list{
+            background-color: #4548dd;
+            position: absolute;
+            left: 160px;
+            top: 20px;
+            width: 170px;
+            display: none;
+            border-radius: 4px;
+        }
+        .cap2-list .down1:hover .cap3-list{
+            display: block;
+        }
+        .cap3-list>ul>li:hover>a{
+            background-color: rgb(110, 182, 241);
+        }
+        .cap3-list>ul>li>a{
+            width: 130px;
+        }
+        /* cấp 2 chỗ thông tin cá nhân */
+        .logodangnhap{
+            padding-top: 10px;
+        }
+        .cap2dangnhap-list{
+            width: 190px;
+            height: 100px;
+            display: none;
+        }
+        .cap2dangnhap-list>ul>li:hover>a{
+            background-color: rgb(134, 170, 236);
+	        border-radius: 4px;
+        }
+        .cap2dangnhap-list>ul>li>a{
+            width: 150px;
+        }
+        .dangnhap:hover>.cap2dangnhap-list{
+            display: block;
+        }
+        /* hết menu */
+        .trai{
+            width: 17%;
+            height: 560px;
+            /* background-color: rgb(68, 82, 124); */
+            margin-top: 50px;
+            border: 1px solid#333;
+            overflow-y: scroll;
+            font-size: 13px;
+            position: fixed;
+            left: 0px;
+            padding: 0px 0px 20px 0px;
+    
+        }
+      
+        .giua{
+            margin-top: 50px;
+            width: 800px;
+            height: 560px;
+           
+            float: left;
+            margin-left: 18%;
+            padding: 5px 0px 0px 15px;
+        }
+        .phai{
+            margin-top: 100px;
+            width: 280px;
+            height: 600px;
+            float: left;
+            padding-left: 10px;
+            /* position: fixed;
+            right: 0px; */
+            background-image: url(../img/cho.png);
+            background-repeat: repeat-x;
+        }
+        .trai a{
+           
+            font-size: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        
+        h2{
+            color: #288cc4;
+            
+        }
+        body{
+            font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+            color: #414141;
+        } 
+        #trai-menu>li>a{
+            color: black;
+            display: inline;
+        }
+        #trai-menu>li:hover>a{
+            color: cadetblue;
+        }    
+    </style>
+</head>
+<body>
+    <!-- phần menu -->
+    <div class="main1">
+	    <ul class="cap1-list">
+              
+				<li class="down">
+					<a class="letrai" href="#">Trang chủ</a>
+
+				</li>
+                <li class="down">
+					<a href="#">Giới thiệu</a>
+				</li>
+				<li class="down">
+					<a href="../trang con cap 1/khoahoc.html">Khóa học</a>
+					<div class="cap2-list">
+						<ul>
+							<li class="down1">
+								<a href="../trang con cap 2/word.html">Word</a>
+								<div class="cap3-list">
+                                    <ul>
+                                        <li>
+                                            <a href="../trang con cap 2/word.html">Bài giảng</a>
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/quiz-word.html">Quiz</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/baitapthword.html">Bài tập thực hành</a>
+                                        </li>
+                                    </ul>
+                                </div>
+							</li>
+							<li class="down1">
+								<a href="../trang con cap 2/excle.html">Excle</a>
+                                <div class="cap3-list">
+                                    <ul>
+                                        <li>
+                                            <a href="../trang con cap 3/baitapthexcle.html">Bài giảng</a>
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/quiz-exlce.html">Quiz</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="../trang con cap 3/baitapthexcle.html">Bài tập thực hành</a>
+                                        </li>
+                                    </ul>
+                                </div>
+								
+							</li>
+							<li class="down1" >
+								<a href="../trang con cap 2/ppt.html">Powerpoint</a>
+                                <div class="cap3-list">
+                                        <ul>
+                                            <li>
+                                                <a href="../trang con cap 2/ppt.html">Bài giảng</a>
+                                            </li>
+                                            <li>
+                                                <a href="../trang con cap 3/quiz-ppt.html">Quiz</a>
+                                                
+                                            </li>
+                                            <li>
+                                                <a href="../trang con cap 3/bt ppt.pdf">Bài tập thực hành</a>
+                                            </li>
+                                        </ul>
+							</li>
+						</ul>
+					</div>
+				</li>
+				
+                <li class="dangnhap">
+                    <a href="#">Nguyễn Duy Hải-CNTT</a>
+                    <div class="cap2dangnhap-list">
+                        <ul>
+                            <li><a href="../trang con cap 1/khoahoc.html">Các khóa học của tôi</a></li>
+                            <li><a href="#">Thoát</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="logodangnhap">
+                   <a href="#"> <img  src="../img/hoso.png" height="30px"  alt=""></a>
+                </li>
+            
+				
+		    </ul>
+	</div>
+    <!-- thân -->
+    <div class="trai">
+        
+        <div style="background-color: #E7E9EB;">
+            <h2 style="text-align:center; ">MS Excle 2016</h2>
+            <ul id="trai-menu">
+                <li><a href="#phan1"> 1. Làm quen với Excle 2016</a></li>
+                <li><a href="#phan2"> 2. Thao tác cơ bản với Excle</a></li>
+                <li><a href="#phan3"> 3. Quản lý vùng dữ liệu và ô dữ liệu</a>  </li>
+                <li><a href="#phan4"> 4. Định dạng vùng dữ liệu</a>  </li>
+                <li><a href="#phan5"> 5. Lập công thức tính toán trong Exlce</a>  </li>
+                <li><a href="#phan6"> 6. Các hàm toán học và hàm thời gian</a> </li>
+                <li><a href="#phan7"> 7. Nhóm hàm thống kê và chuỗi văn bản</a> </li>
+                <li><a href="#phan8"> 8. Câu lệnh điều kiện và hàm điều kiện</a> </li>
+                <li><a href="#phan9"> 9. In bảng tính exlce 2016</a></li>
+                <li><a href="../trang con cap 3/quiz-exlce.html">Quiz luyện tập</a></li>
+                <li><a href="../trang con cap 3/baitapthexcle.html">Bài tập thực hành</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="giua">
+        <!-- phần 1 -->
+        <a href="https://quizizz.com/join?gc=106715">quiz</a>
+        <h2 id="phan1"> 1: Giới thiệu</h2> <br> <br>
+        <p>Microsoft Excel là một chương trình xử lý bảng tính được thiết kế giúp ghi lại, trình bày các thông tin xử lý dưới dạng bảng, thực hiện tính toán và xây dựng các số liệu thống kê trực quan có trong bảng. <br><br>Mặc dù bạn có thể cho rằng Excel chỉ được sử dụng bởi một số người khi xử lý dữ liệu phức tạp nhưng trên thực tế, bất kỳ ai trong số chúng ta cũng có thể học cách sử dụng các tính năng hữu ích của chương trình. <br>Dưới đây sẽ là video hướng dẫn chi tiết.</p>
+        <br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3Su3SdPkSvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br> <br>
+        <span style="font-size: 20px;">Nếu chưa có bộ cài đặt Office 2016, bạn có thể tải về máy và cài đặt<a style="color: red;  display: inline;" href="https://vqt2.x8top.net/tmp082020/cf/larger/2021/sa/1/MSOffice_2016_64bit.zip" download="">tại đây</a></span>
+
+    
+        <!--  2 -->
+        <h2 id="phan2"> 2: Thao tác cơ bản với Excle</h2>
+        <br><br>
+        <p>Bài này chúng ta sẽ biết được những thao tác nhập dữ liệu cơ bản giúp cho việc nhập dữ liệu vào bảng tính nhanh nhất. <br> Dưới đây là video hướng dẫn chi tiết.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jvxVjMhilZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!--  3 -->
+        <br><br> <h2 id="phan3"> 3: Quản lý vùng dữ liệu và ô dữ liệu</h2> <br><br>
+       <p>Bài này chúng ta sẽ nắm được cách Quản lý Vùng dữ liệu và Ô dữ liệu trong Excel 2016. Điều này sẽ giúp chúng ta thao tác dễ dàng với bảng tính hơn. Dưới đây là video hướng dẫn chi tiết. <br><br></p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/6p28Dz4fw-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!--  4 -->
+       <br><br> <h2 id="phan4"> 4: Định dạng vùng dữ liệu</h2> <br><br>
+       <p>Bài này chúng ta sẽ biết cách định dạng vùng dữ liệu trong Excel. Các định dạng này sẽ giúp chúng ta trình bày văn bản ấn tượng hơn với người đọc và giúp chúng ta xử lý dữ liệu bảng tính tốt hơn. Dưới đây là video hướng dẫn chi tiết. <br><br></p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/8wyUBZPdgyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <!--  5 -->
+       <br><br> <h2 id="phan5"> 5: Lập công thức tính toán trong Excle</h2> <br><br>
+       <p>Bài này chúng ta sẽ biết cấu trúc và tạo chính xác một công thức để thực hiện tính toán trong Excel 2016. Các định dạng này sẽ giúp chúng ta trình bày văn bản ấn tượng hơn với người đọc và giúp chúng ta xử lý dữ liệu bảng tính tốt hơn. Dưới đây là video hướng dẫn chi tiết. <br><br></p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/4wkuN4MQJ98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <!--  6 -->
+       <br><br> <h2 id="phan6"> 6: Các hàm toán học và thời gian</h2> <br><br>
+       <p>Bài này chúng ta sẽ biết cách sử dụng các hàm toán học và các hàm về thời gian trong Excel 2016. Dưới đây là video hướng dẫn chi tiết. <br><br></p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/c9bXWjdocqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <!--  7 -->
+       <br><br> <h2 id="phan7"> 7: Nhóm hàm thống kê và chuỗi văn bản</h2> <br><br>
+       <p>Bài này chúng ta cùng tìm hiểu các hàm thống kê và xử lí chuỗi văn bản trong Excel 2016. Dưới đây là video hướng dẫn chi tiết. <br><br></p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/7kpnPO6zG5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <!--  8 -->
+       <br><br> <h2 id="phan8"> 8: Câu lệnh điều kiện và hàm điều kiện</h2> <br><br>
+       <p>Bài này chúng ta sẽ tìm hiểu cách viết một câu lệnh điều kiện và các hàm tính toán có điều kiện trong Microsoft Excel 2016. Dưới đây là video hướng dẫn chi tiết. <br><br></p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/wgnvsjosPk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <!--  9 -->
+       <br><br> <h2 id="phan9"> 9: In bảng tính</h2> <br><br>
+       <p>Bài này chúng ta sẽ biết được cách điều chỉnh để cho ra những bản in đẹp nhất trong Excel 2016 như canh lề, khổ giấy, in tiêu đề. Dưới đây là video hướng dẫn chi tiết. <br><br></p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/UMciBPR3LkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><br><br><p>Trên đây là những kiến thức cơ bản về khóa học excle 2016. Chúc bạn học tốt!</p>
+    </div>
+    <div class="phai">
+        <!-- đã chèn ảnh -->
+    </div>
+</body>
+</html>
